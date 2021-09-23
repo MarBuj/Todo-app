@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(225deg, #bdc3c7 0%, #2c3e50 100%);
+}
+
+i {
+  cursor: pointer;
+}
+
+.fa-folder-plus::before {
+  font-size: 150%;
+}
+
+.fa-trash-alt::before,
+.fa-check-square::before,
+.fa-trash-restore::before {
+  font-size: 125%;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.fa-trash-alt:hover::before {
+  color: #dc3545;
+}
+
+.fa-check-square:hover::before,
+.fa-trash-restore:hover::before {
+  color: #198754;
+}
+
+.action-icons {
+  position: relative;
+  right: -200%;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.list-group-item:hover .action-icons {
+  right: 0;
+}
+
+.disable {
+  pointer-events: none;
+}
+/*# sourceMappingURL=style.css.map */
