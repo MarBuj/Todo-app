@@ -1,3 +1,5 @@
+DEMO: https://marbuj.github.io/Todo-app/
+
 Project of Todo APP with Local Storage for TesoRookie internship. 
 
 Main stack:
